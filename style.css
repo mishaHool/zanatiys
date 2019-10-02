@@ -4,16 +4,22 @@ html{
 }
 .header{
   background: url("img/background.png") no-repeat;
-  background-size: 1100px;
-  margin: -106px;
-  margin-left: auto;
-  height: 1068px;
+  background-size: 1200px;
+  margin: -114px;
+  height: 740px;
   width: 100%;
-  position: relative;
+  position: absolute;
+  left: 15%;
+  }
+  .inIt{
+    width: inherit;
+    height: inherit;
+    position: relative;
+
   }
 .inf{
   display: flex;
-  padding-top: 110px;
+  padding-top: 118px;
   margin-left: 400px;
 }
 .inf div:nth-child(2), div:nth-child(3), div:nth-child(4){
@@ -22,7 +28,7 @@ html{
 .micocin{
   font-weight: bold;
   position: relative;
-  margin-right: 80px;
+  margin-right: 88px;
 }
 .micocin span{
   position: absolute;
@@ -32,10 +38,57 @@ top: 8px;
   width: 161px;
 height: 35px;
 color: #666666;
-font-size: 16px;
+font-size: 13px;
 position: relative;
+font-style: italic;
 }
 .sec img{
   position: absolute;
   left: -40px;
+}
+.thr{
+  width: 114px;
+  height: 34px;
+  color: #666666;
+  font-size: 13px;
+  position: relative;
+  font-style: italic;
+}
+ .thr img{
+  position: absolute;
+  left: -35px;
+} 
+.fou{
+  width: 119px;
+  height: 34px;
+  color: #666666;
+  font-size: 13px;
+  position: relative;
+  font-style: italic;
+}
+.fou img{
+  position: absolute;
+  left: -35px;
+}
+.tabletki{
+  background: url("img/tablet.png") no-repeat;
+  width: 344px;
+  height: 410px;
+  background-size: 350px;
+  position: absolute;
+  bottom: 0px;
+  left: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.cena{
+  position: absolute;
+  top: 0px;
+  right: 125px;
+}
+.cena-1{
+  position: absolute;
+  top: 70px;
+  right: 70px;
 }
